@@ -1,0 +1,1374 @@
+{
+  "fscene": 5,
+  "documentId": "SKPGDTA5492RSEJY49BJG6QWJ8",
+  "featuresUsed": [
+    "dc3d.v1"
+  ],
+  "generator": "dart_code_3d test",
+  "stage": {},
+  "resources": {
+    "geo:1Q1X008000000": {
+      "kind": "geometry",
+      "procedural": {
+        "shape": "sphere",
+        "radius": 1.0,
+        "segments": 24,
+        "rings": 12
+      }
+    },
+    "mat:1Q1X008000002": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "classDecl",
+      "properties": {
+        "baseColor": {
+          "c": [0.2, 0.45, 0.85, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X008000004": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "mixinDecl",
+      "properties": {
+        "baseColor": {
+          "c": [0.55, 0.35, 0.85, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X008000006": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "enumDecl",
+      "properties": {
+        "baseColor": {
+          "c": [0.15, 0.65, 0.6, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X008000008": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "extensionDecl",
+      "properties": {
+        "baseColor": {
+          "c": [0.85, 0.55, 0.2, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000A": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "extensionTypeDecl",
+      "properties": {
+        "baseColor": {
+          "c": [0.8, 0.4, 0.55, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000C": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "method",
+      "properties": {
+        "baseColor": {
+          "c": [0.35, 0.7, 0.35, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000E": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "constructor",
+      "properties": {
+        "baseColor": {
+          "c": [0.85, 0.75, 0.25, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000G": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "getter",
+      "properties": {
+        "baseColor": {
+          "c": [0.45, 0.75, 0.75, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000J": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "setter",
+      "properties": {
+        "baseColor": {
+          "c": [0.75, 0.45, 0.45, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000M": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "function",
+      "properties": {
+        "baseColor": {
+          "c": [0.25, 0.6, 0.9, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000P": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "ghostParent",
+      "properties": {
+        "baseColor": {
+          "c": [0.7, 0.7, 0.75, 1.0]
+        }
+      }
+    },
+    "mat:1Q1X00800000R": {
+      "kind": "material",
+      "type": "physicallyBased",
+      "name": "externalPackage",
+      "properties": {
+        "baseColor": {
+          "c": [0.45, 0.45, 0.5, 1.0]
+        }
+      }
+    }
+  },
+  "nodes": {
+    "n:1Q1X00800000T": {
+      "name": "dc3d root",
+      "transform": {
+        "trs": {
+          "t": [0.0, 0.0, 0.0],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.0, 1.0, 1.0]
+        }
+      },
+      "children": [
+        "n:1Q1X00800000W",
+        "n:1Q1X00800000Y",
+        "n:1Q1X00800001A",
+        "n:1Q1X00800001C",
+        "n:1Q1X00800001E",
+        "n:1Q1X00800001G",
+        "n:1Q1X00800001J",
+        "n:1Q1X00800001P"
+      ],
+      "components": [
+        {
+          "type": "dc3d.project",
+          "properties": {
+            "schemaVersion": {
+              "i": 1
+            },
+            "generator": {
+              "s": "dart_code_3d test"
+            },
+            "info": {
+              "s": "{\"schemaVersion\":1,\"generator\":\"dart_code_3d test\",\"source\":{\"type\":\"git\",\"url\":\"https://github.com/example/tiny_app\",\"ref\":\"main\",\"commit\":\"abc1234\"},\"createdAt\":\"2026-10-03T12:00:00.000Z\",\"rules\":{\"files.exclude_generated\":true,\"files.generated_patterns\":[\"**/*.g.dart\"]},\"entryNodeId\":\"lib/main.dart#main\",\"stats\":{\"files\":2,\"parseErrors\":0,\"nodes\":14,\"links\":6,\"durationMs\":42}}"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_links",
+          "properties": {
+            "kindNames": {
+              "list": [
+                {
+                  "s": "call"
+                },
+                {
+                  "s": "import"
+                },
+                {
+                  "s": "implementsLink"
+                },
+                {
+                  "s": "mixinLink"
+                },
+                {
+                  "s": "extendsExternal"
+                }
+              ]
+            },
+            "resolutionNames": {
+              "list": [
+                {
+                  "s": "exact"
+                },
+                {
+                  "s": "byName"
+                },
+                {
+                  "s": "ambiguous"
+                },
+                {
+                  "s": "external"
+                }
+              ]
+            },
+            "from": {
+              "list": [
+                {
+                  "i": 0
+                },
+                {
+                  "i": 3
+                },
+                {
+                  "i": 12
+                },
+                {
+                  "i": 6
+                },
+                {
+                  "i": 9
+                },
+                {
+                  "i": 12
+                }
+              ]
+            },
+            "to": {
+              "list": [
+                {
+                  "i": 2
+                },
+                {
+                  "i": 4
+                },
+                {
+                  "i": 13
+                },
+                {
+                  "i": 7
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 13
+                }
+              ]
+            },
+            "kind": {
+              "list": [
+                {
+                  "i": 0
+                },
+                {
+                  "i": 0
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 3
+                },
+                {
+                  "i": 2
+                },
+                {
+                  "i": 4
+                }
+              ]
+            },
+            "resolution": {
+              "list": [
+                {
+                  "i": 0
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 3
+                },
+                {
+                  "i": 0
+                },
+                {
+                  "i": 2
+                },
+                {
+                  "i": 3
+                }
+              ]
+            },
+            "count": {
+              "list": [
+                {
+                  "i": 1
+                },
+                {
+                  "i": 3
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 1
+                },
+                {
+                  "i": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800000W": {
+      "name": "main",
+      "transform": {
+        "trs": {
+          "t": [0.0, 0.0, 0.0],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [0.5, 0.5, 0.5]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000M"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 0
+            },
+            "id": {
+              "s": "lib/main.dart#main"
+            },
+            "kind": {
+              "s": "function"
+            },
+            "name": {
+              "s": "main"
+            },
+            "qualifiedName": {
+              "s": "main"
+            },
+            "filePath": {
+              "s": "lib/main.dart"
+            },
+            "startLine": {
+              "i": 1
+            },
+            "endLine": {
+              "i": 4
+            },
+            "loc": {
+              "i": 3
+            },
+            "packageName": {
+              "s": "tiny_app"
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 0.0
+            },
+            "y": {
+              "d": 0.0
+            },
+            "z": {
+              "d": 0.0
+            },
+            "radius": {
+              "d": 0.5
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800000Y": {
+      "name": "UserRepository",
+      "transform": {
+        "trs": {
+          "t": [1.5, -0.25, 0.10000000149011612],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [0.625, 0.625, 0.625]
+        }
+      },
+      "children": [
+        "n:1Q1X008000010",
+        "n:1Q1X008000012",
+        "n:1Q1X008000014",
+        "n:1Q1X008000016",
+        "n:1Q1X008000018"
+      ],
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000002"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 1
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserRepository"
+            },
+            "kind": {
+              "s": "classDecl"
+            },
+            "name": {
+              "s": "UserRepository"
+            },
+            "qualifiedName": {
+              "s": "UserRepository"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 30
+            },
+            "packageName": {
+              "s": "tiny_app"
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 1.5
+            },
+            "y": {
+              "d": -0.25
+            },
+            "z": {
+              "d": 0.1
+            },
+            "radius": {
+              "d": 0.625
+            },
+            "annotations": {
+              "list": [
+                {
+                  "map": {
+                    "patternId": {
+                      "s": "repository"
+                    },
+                    "role": {
+                      "s": "repository"
+                    },
+                    "confidence": {
+                      "d": 1.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X008000010": {
+      "name": "new",
+      "transform": {
+        "trs": {
+          "t": [4.800000190734863, -0.800000011920929, 0.3199999928474426],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.2000000476837158, 1.2000000476837158, 1.2000000476837158]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000E"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 2
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserRepository.new"
+            },
+            "kind": {
+              "s": "constructor"
+            },
+            "name": {
+              "s": "new"
+            },
+            "qualifiedName": {
+              "s": "UserRepository.new"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 2
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 3.0
+            },
+            "y": {
+              "d": -0.5
+            },
+            "z": {
+              "d": 0.2
+            },
+            "radius": {
+              "d": 0.75
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X008000012": {
+      "name": "save",
+      "transform": {
+        "trs": {
+          "t": [7.199999809265137, -1.2000000476837158, 0.48000001907348633],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.399999976158142, 1.399999976158142, 1.399999976158142]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000C"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 3
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserRepository.save"
+            },
+            "kind": {
+              "s": "method"
+            },
+            "name": {
+              "s": "save"
+            },
+            "qualifiedName": {
+              "s": "UserRepository.save"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 8
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 4.5
+            },
+            "y": {
+              "d": -0.75
+            },
+            "z": {
+              "d": 0.30000000000000004
+            },
+            "radius": {
+              "d": 0.875
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X008000014": {
+      "name": "name",
+      "transform": {
+        "trs": {
+          "t": [9.600000381469727, -1.600000023841858, 0.6399999856948853],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.600000023841858, 1.600000023841858, 1.600000023841858]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000G"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 4
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserRepository.name"
+            },
+            "kind": {
+              "s": "getter"
+            },
+            "name": {
+              "s": "name"
+            },
+            "qualifiedName": {
+              "s": "UserRepository.name"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 1
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 6.0
+            },
+            "y": {
+              "d": -1.0
+            },
+            "z": {
+              "d": 0.4
+            },
+            "radius": {
+              "d": 1.0
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X008000016": {
+      "name": "name=",
+      "transform": {
+        "trs": {
+          "t": [12.0, -2.0, 0.800000011920929],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.7999999523162842, 1.7999999523162842, 1.7999999523162842]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000J"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 5
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserRepository.name="
+            },
+            "kind": {
+              "s": "setter"
+            },
+            "name": {
+              "s": "name="
+            },
+            "qualifiedName": {
+              "s": "UserRepository.name="
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 1
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 7.5
+            },
+            "y": {
+              "d": -1.25
+            },
+            "z": {
+              "d": 0.5
+            },
+            "radius": {
+              "d": 1.125
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X008000018": {
+      "name": "CachedUserRepository",
+      "transform": {
+        "trs": {
+          "t": [14.399999618530273, -2.4000000953674316, 0.9600000381469727],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [2.0, 2.0, 2.0]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000002"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 6
+            },
+            "id": {
+              "s": "lib/src/user.dart#CachedUserRepository"
+            },
+            "kind": {
+              "s": "classDecl"
+            },
+            "name": {
+              "s": "CachedUserRepository"
+            },
+            "qualifiedName": {
+              "s": "CachedUserRepository"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 12
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 9.0
+            },
+            "y": {
+              "d": -1.5
+            },
+            "z": {
+              "d": 0.6000000000000001
+            },
+            "radius": {
+              "d": 1.25
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001A": {
+      "name": "Loggable",
+      "transform": {
+        "trs": {
+          "t": [10.5, -1.75, 0.699999988079071],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.375, 1.375, 1.375]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000004"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 7
+            },
+            "id": {
+              "s": "lib/src/user.dart#Loggable"
+            },
+            "kind": {
+              "s": "mixinDecl"
+            },
+            "name": {
+              "s": "Loggable"
+            },
+            "qualifiedName": {
+              "s": "Loggable"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 5
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 10.5
+            },
+            "y": {
+              "d": -1.75
+            },
+            "z": {
+              "d": 0.7000000000000001
+            },
+            "radius": {
+              "d": 1.375
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001C": {
+      "name": "Role",
+      "transform": {
+        "trs": {
+          "t": [12.0, -2.0, 0.800000011920929],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.5, 1.5, 1.5]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000006"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 8
+            },
+            "id": {
+              "s": "lib/src/user.dart#Role"
+            },
+            "kind": {
+              "s": "enumDecl"
+            },
+            "name": {
+              "s": "Role"
+            },
+            "qualifiedName": {
+              "s": "Role"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 3
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 12.0
+            },
+            "y": {
+              "d": -2.0
+            },
+            "z": {
+              "d": 0.8
+            },
+            "radius": {
+              "d": 1.5
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001E": {
+      "name": "UserX",
+      "transform": {
+        "trs": {
+          "t": [13.5, -2.25, 0.8999999761581421],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.625, 1.625, 1.625]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000008"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 9
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserX"
+            },
+            "kind": {
+              "s": "extensionDecl"
+            },
+            "name": {
+              "s": "UserX"
+            },
+            "qualifiedName": {
+              "s": "UserX"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 4
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 13.5
+            },
+            "y": {
+              "d": -2.25
+            },
+            "z": {
+              "d": 0.9
+            },
+            "radius": {
+              "d": 1.625
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001G": {
+      "name": "UserId",
+      "transform": {
+        "trs": {
+          "t": [15.0, -2.5, 1.0],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.75, 1.75, 1.75]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000A"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 10
+            },
+            "id": {
+              "s": "lib/src/user.dart#UserId"
+            },
+            "kind": {
+              "s": "extensionTypeDecl"
+            },
+            "name": {
+              "s": "UserId"
+            },
+            "qualifiedName": {
+              "s": "UserId"
+            },
+            "filePath": {
+              "s": "lib/src/user.dart"
+            },
+            "startLine": {
+              "i": 3
+            },
+            "endLine": {
+              "i": 40
+            },
+            "loc": {
+              "i": 2
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 15.0
+            },
+            "y": {
+              "d": -2.5
+            },
+            "z": {
+              "d": 1.0
+            },
+            "radius": {
+              "d": 1.75
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001J": {
+      "name": "StatelessWidget",
+      "transform": {
+        "trs": {
+          "t": [16.5, -2.75, 1.100000023841858],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.875, 1.875, 1.875]
+        }
+      },
+      "children": [
+        "n:1Q1X00800001M"
+      ],
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000P"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 11
+            },
+            "id": {
+              "s": "ghost:flutter:StatelessWidget"
+            },
+            "kind": {
+              "s": "ghostParent"
+            },
+            "name": {
+              "s": "StatelessWidget"
+            },
+            "qualifiedName": {
+              "s": "StatelessWidget"
+            },
+            "loc": {
+              "i": 0
+            },
+            "packageName": {
+              "s": "flutter"
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": true
+            },
+            "x": {
+              "d": 16.5
+            },
+            "y": {
+              "d": -2.75
+            },
+            "z": {
+              "d": 1.1
+            },
+            "radius": {
+              "d": 1.875
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001M": {
+      "name": "App",
+      "transform": {
+        "trs": {
+          "t": [9.600000381469727, -1.600000023841858, 0.64000004529953],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [1.0666667222976685, 1.0666667222976685, 1.0666667222976685]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X008000002"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 12
+            },
+            "id": {
+              "s": "lib/main.dart#App"
+            },
+            "kind": {
+              "s": "classDecl"
+            },
+            "name": {
+              "s": "App"
+            },
+            "qualifiedName": {
+              "s": "App"
+            },
+            "filePath": {
+              "s": "lib/main.dart"
+            },
+            "startLine": {
+              "i": 6
+            },
+            "endLine": {
+              "i": 12
+            },
+            "loc": {
+              "i": 6
+            },
+            "enterable": {
+              "b": true
+            },
+            "external": {
+              "b": false
+            },
+            "x": {
+              "d": 18.0
+            },
+            "y": {
+              "d": -3.0
+            },
+            "z": {
+              "d": 1.2000000000000002
+            },
+            "radius": {
+              "d": 2.0
+            }
+          }
+        }
+      ]
+    },
+    "n:1Q1X00800001P": {
+      "name": "flutter",
+      "transform": {
+        "trs": {
+          "t": [19.5, -3.25, 1.2999999523162842],
+          "r": [0.0, 0.0, 0.0, 1.0],
+          "s": [2.125, 2.125, 2.125]
+        }
+      },
+      "components": [
+        {
+          "type": "mesh",
+          "properties": {
+            "geometry": {
+              "rref": "geo:1Q1X008000000"
+            },
+            "material": {
+              "rref": "mat:1Q1X00800000R"
+            }
+          }
+        },
+        {
+          "type": "dc3d.code_element",
+          "properties": {
+            "index": {
+              "i": 13
+            },
+            "id": {
+              "s": "pkg:flutter"
+            },
+            "kind": {
+              "s": "externalPackage"
+            },
+            "name": {
+              "s": "flutter"
+            },
+            "qualifiedName": {
+              "s": "flutter"
+            },
+            "loc": {
+              "i": 0
+            },
+            "packageName": {
+              "s": "flutter"
+            },
+            "enterable": {
+              "b": false
+            },
+            "external": {
+              "b": true
+            },
+            "x": {
+              "d": 19.5
+            },
+            "y": {
+              "d": -3.25
+            },
+            "z": {
+              "d": 1.3
+            },
+            "radius": {
+              "d": 2.125
+            }
+          }
+        }
+      ]
+    }
+  },
+  "roots": [
+    "n:1Q1X00800000T"
+  ]
+}
