@@ -11,9 +11,8 @@ dependencies:
   archive: ^4.0.7
   equatable: ^3.0.0
   meta: ^1.16.0
-  # The .fscene document model, from hawkbee's flutter_scene submodule.
-  scene:
-    path: ../flutter_scene/packages/scene
+  # The .fscene document model, overridden to hawkbee's flutter_scene submodule.
+  scene: ^0.3.0
   vector_math: ^2.1.4
 
 dev_dependencies:
